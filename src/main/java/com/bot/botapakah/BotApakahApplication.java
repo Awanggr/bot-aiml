@@ -42,6 +42,7 @@ public class BotApakahApplication extends SpringBootServletInitializer {
 
     private static final boolean TRACE_MODE = false;
     static String botName = "super";
+    //tes
 
     @Autowired
     private LineMessagingClient lineMessagingClient;
