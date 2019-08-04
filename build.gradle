@@ -23,6 +23,7 @@ repositories {
     mavenCentral()
     maven {
         url 'http://nexus.bippo.co.id/nexus/content/repositories/soluvas-public-snapshots/'
+        // url 'https://mvnrepository.com/artifact/org.goldrenard/jb'
     }
 }
 
@@ -34,10 +35,13 @@ dependencies {
     implementation 'com.linecorp.bot:line-bot-servlet:1.15.0'
     implementation 'com.linecorp.bot:line-bot-model:1.15.0'
     implementation 'com.linecorp.bot:line-bot-api-client:1.15.0'
+    implementation 'net.reduls.sanmoku:sanmoku:0.0.5'
+    implementation 'net.reduls.sanmoku:sanmoku-feature-ex:0.0.1.'
 
     compile group: 'org.json', name: 'json', version: '20180130'
     compile 'org.alicebot.ab:ab:4.0.4-SNAPSHOT'
-
+     // https://mvnrepository.com/artifact/org.goldrenard/jb
+    // compile group: 'org.goldrenard', name: 'jb', version: '1.0.13'
 
     testCompile('org.springframework.boot:spring-boot-starter-test')
 }
